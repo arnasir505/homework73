@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 8000;
+const password = 'ILoveReact';
 
 app.get('/Hello', (_req, res) => {
   res.send('Hello!\n');
